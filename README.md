@@ -1,8 +1,9 @@
 # Fulfillment Ops Analytics
 ### End-to-End AWS Data Engineering Pipeline | Amazon BIE Portfolio Project
 
-![Dashboard](docs/dashboard_overview.png)
+[![Dashboard](docs/1FOPS.png)](docs/1FOPS.png)
 
+> **Live Dashboard:** Built on Amazon QuickSight connected to Redshift Serverless. [View screenshots below.](#quicksight-dashboard)
 A fully production-grade data engineering project built on the AWS ecosystem, simulating an Amazon fulfillment center operational analytics platform. Covers the complete BIE stack: data generation, S3 data lake, Glue ETL, Redshift star schema, and QuickSight BI dashboard — all running on real AWS infrastructure.
 
 ---
@@ -188,6 +189,12 @@ The dashboard connects to Redshift Serverless via SPICE for sub-second query per
 | `v_executive_summary` | Single-row 30-day KPI rollup for scorecard tiles |
 
 ---
+
+### Dashboard Screenshots
+
+![Overview](docs/1FOPS.png)
+![Scorecard](docs/2FOPS.png)
+![Carrier Analysis](docs/3FOPS.png)
 
 ## Running Locally
 
