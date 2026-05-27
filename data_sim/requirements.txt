@@ -1,0 +1,5 @@
+# fulfillment-ops-analytics / data_sim
+# Standard library only — no pip installs needed for generate_data.py
+# The packages below are for the optional data_validator.py QA script
+
+pandas>=2.0.0

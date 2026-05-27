@@ -1,0 +1,6 @@
+output/
+curated/
+sql_output/
+__pycache__/
+*.pyc
+.DS_Store
