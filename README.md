@@ -196,6 +196,26 @@ The dashboard connects to Redshift Serverless via SPICE for sub-second query per
 ![Scorecard](docs/2FOPS.png)
 ![Carrier Analysis](docs/3FOPS.png)
 
+---
+## AWS Infrastructure Screenshots
+
+### AWS Glue — Job Run History
+![Glue Job Runs](docs/FO_GLUEJOBS.png)
+
+### Amazon S3 — Raw Landing Zone
+![S3 Raw Bucket](docs/FO_S3BUCKET1.png)
+
+### Amazon S3 — Curated Zone
+![S3 Curated Bucket](docs/FO_S3BUCKET2.png)
+
+### Redshift — Schema Catalog
+![Redshift Schema](docs/FO_REDSHIFTQEV2_1SCHEMACATLOG.png)
+
+### Redshift — Table Row Counts & Executive Summary
+![Redshift Results](docs/FO_REDSHIFTQEV2_2.png)
+
+---
+
 ## Running Locally
 
 ```bash
